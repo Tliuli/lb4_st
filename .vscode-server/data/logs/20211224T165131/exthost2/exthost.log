@@ -1,0 +1,23 @@
+[2021-12-24 17:10:45.877] [exthost] [info] Extension host with pid 1792 started
+[2021-12-24 17:10:45.889] [exthost] [error] Error: EEXIST: file already exists, open '/home/tli2/.vscode-server/data/User/workspaceStorage/0b2e788a2bff724531d5bded461206e2/vscode.lock'
+[2021-12-24 17:10:45.906] [exthost] [info] Lock '/home/tli2/.vscode-server/data/User/workspaceStorage/0b2e788a2bff724531d5bded461206e2/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2021-12-24 17:10:45.911] [exthost] [info] Lock '/home/tli2/.vscode-server/data/User/workspaceStorage/0b2e788a2bff724531d5bded461206e2/vscode.lock': The pid 14945 appears to be gone.
+[2021-12-24 17:10:45.911] [exthost] [info] Lock '/home/tli2/.vscode-server/data/User/workspaceStorage/0b2e788a2bff724531d5bded461206e2/vscode.lock': Deleting a stale lock.
+[2021-12-24 17:10:45.950] [exthost] [info] Lock '/home/tli2/.vscode-server/data/User/workspaceStorage/0b2e788a2bff724531d5bded461206e2/vscode.lock': Lock acquired.
+[2021-12-24 17:10:46.131] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-24 17:10:46.143] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-24 17:10:46.195] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2021-12-24 17:10:46.327] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-24 17:10:46.391] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-24 17:10:46.405] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-24 17:10:46.409] [exthost] [info] Eager extensions activated
+[2021-12-24 17:26:37.155] [exthost] [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:dockerfile'
+[2021-12-24 17:31:52.115] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+[2021-12-24 17:31:57.087] [exthost] [info] ExtensionService#_doActivateExtension vscode.grunt, startup: false, activationEvent: 'onCommand:workbench.action.tasks.runTask'
+[2021-12-24 17:31:57.094] [exthost] [info] ExtensionService#_doActivateExtension vscode.gulp, startup: false, activationEvent: 'onCommand:workbench.action.tasks.runTask'
+[2021-12-24 17:31:57.106] [exthost] [info] ExtensionService#_doActivateExtension vscode.jake, startup: false, activationEvent: 'onCommand:workbench.action.tasks.runTask'
+[2021-12-24 17:31:57.113] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onCommand:workbench.action.tasks.runTask'
+[2021-12-24 17:31:57.151] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onCommand:workbench.action.tasks.runTask'
+[2021-12-24 17:32:06.073] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2021-12-24 17:32:06.086] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2021-12-24 17:32:06.131] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
