@@ -1,0 +1,1087 @@
+Validating found git in: git
+Using git 2.9.5 from git
+> git rev-parse --git-dir
+Open repository: /home/tli2
+> git status -z -u
+> git show --textconv :Dockerfile
+> git ls-files --stage -- /home/tli2/Dockerfile
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git cat-file -s 632d882ef9bf22277439aa951840bc88326de56b
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git ls-files --stage -- /home/tli2/Dockerfile
+> git cat-file -s 632d882ef9bf22277439aa951840bc88326de56b
+> git show --textconv :Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git cat-file -s ae6872bf622b857c8b013f7f689fa4d0deb69450
+> git check-ignore -v -z --stdin
+> git show --textconv :Dockerfile
+> git ls-files --stage -- /home/tli2/Dockerfile
+> git cat-file -s 632d882ef9bf22277439aa951840bc88326de56b
+> git check-ignore -v -z --stdin
+> git show --textconv :.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git cat-file -s ae6872bf622b857c8b013f7f689fa4d0deb69450
+> git show --textconv HEAD:.bash_history
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git hash-object --stdin -w --path .bash_history
+> git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z HEAD
+> git ls-tree -l HEAD -- .bash_history
+> git update-index  --cacheinfo 100644 6a8b69ef7e0324742c40fe565b1170998af9d705
+ .bash_history
+Ignoring path 
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/.bash_history
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git show --textconv :.bash_history
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git show --textconv :.bash_history
+> git show --textconv :.bash_history
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:data/ibtmp1
+> git ls-tree -l HEAD -- /home/tli2/data/ibtmp1
+> git ls-tree -l HEAD -- /home/tli2/data/ibtmp1
+> git ls-tree -l HEAD -- /home/tli2/data/ibtmp1
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:data/ibdata1
+> git ls-tree -l HEAD -- /home/tli2/data/ibdata1
+> git ls-tree -l HEAD -- /home/tli2/data/ibdata1
+> git show --textconv :Dockerfile
+> git ls-files --stage -- /home/tli2/Dockerfile
+> git cat-file -s 632d882ef9bf22277439aa951840bc88326de56b
+> git show --textconv HEAD:data/ib_buffer_pool
+> git ls-tree -l HEAD -- /home/tli2/data/ib_buffer_pool
+> git show --textconv HEAD:data/binlog.000003
+> git ls-tree -l HEAD -- /home/tli2/data/binlog.000003
+> git ls-tree -l HEAD -- /home/tli2/data/binlog.000003
+> git show --textconv HEAD:.vscode-server/data/User/workspaceStorage/0b2e788a2bff724531d5bded461206e2/vscode.lock
+> git ls-tree -l HEAD -- /home/tli2/.vscode-server/data/User/workspaceStorage/0b2e788a2bff724531d5bded461206e2/vscode.lock
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:.vscode-server/data/logs/20211224T203506/exthost1/exthost.log
+> git ls-tree -l HEAD -- /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/exthost.log
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:.vscode-server/data/logs/20211224T203506/remoteagent.log
+> git ls-tree -l HEAD -- /home/tli2/.vscode-server/data/logs/20211224T203506/remoteagent.log
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git check-ignore -v -z --stdin
+> git show --textconv :.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/tli2/.bash_history
+> git check-ignore -v -z --stdin
+> git show --textconv :Dockerfile
+> git ls-files --stage -- /home/tli2/Dockerfile
+> git cat-file -s 632d882ef9bf22277439aa951840bc88326de56b
+> git show --textconv :docker-compose.yml
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git show --textconv HEAD:.bash_history
+> git show --textconv :docker-compose.yml
+> git show --textconv :.bash_history
+> git show --textconv :.bash_history
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :docker-compose.yml
+> git show --textconv :.bash_history
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :docker-compose.yml
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :docker-compose.yml
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/tli2/data/ibtmp1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :docker-compose.yml
+> git add -A -- /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git show --textconv HEAD:.bash_history
+> git show --textconv :docker-compose.yml
+> git show --textconv :.bash_history
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git add -A -- /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :docker-compose.yml
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log
+> git ls-files --stage -- /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log
+> git cat-file -s 418a1ea4a03fecf0f360f28a95851870534695ad
+> git ls-files --stage -- /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log
+> git cat-file -s 418a1ea4a03fecf0f360f28a95851870534695ad
+> git show --textconv :.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log
+> git cat-file -s 418a1ea4a03fecf0f360f28a95851870534695ad
+> git show --textconv :.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git status -z -u
+> git show --textconv HEAD:.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/1-Docker.log
+> git show --textconv :.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/1-Docker.log
+> git ls-tree -l HEAD -- /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/1-Docker.log
+> git ls-files --stage -- /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/1-Docker.log
+> git cat-file -s 125ecb5346c177e9381ea6131ae7b429b09a70d1
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git ls-tree -l HEAD -- /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/1-Docker.log
+> git ls-files --stage -- /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/1-Docker.log
+> git cat-file -s 125ecb5346c177e9381ea6131ae7b429b09a70d1
+> git show --textconv HEAD:.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/1-Docker.log
+> git show --textconv :.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/1-Docker.log
+> git show --textconv HEAD:.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log
+> git show --textconv :.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log
+> git ls-tree -l HEAD -- /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log
+> git ls-files --stage -- /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log
+> git cat-file -s 418a1ea4a03fecf0f360f28a95851870534695ad
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:.vscode-server/data/User/workspaceStorage/0b2e788a2bff724531d5bded461206e2/vscode.lock
+> git show --textconv :.vscode-server/data/User/workspaceStorage/0b2e788a2bff724531d5bded461206e2/vscode.lock
+> git ls-tree -l HEAD -- /home/tli2/.vscode-server/data/User/workspaceStorage/0b2e788a2bff724531d5bded461206e2/vscode.lock
+> git ls-files --stage -- /home/tli2/.vscode-server/data/User/workspaceStorage/0b2e788a2bff724531d5bded461206e2/vscode.lock
+> git cat-file -s 3b8d754e6cc38d12c24c9b08738b10571608dcb6
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:data/binlog.000003
+> git show --textconv :data/binlog.000003
+> git ls-tree -l HEAD -- /home/tli2/data/binlog.000003
+> git ls-files --stage -- /home/tli2/data/binlog.000003
+> git cat-file -s 26033d4dbf9703b302efde4cfe6f2238cd5f9053
+> git ls-tree -l HEAD -- /home/tli2/data/binlog.000003
+> git ls-files --stage -- /home/tli2/data/binlog.000003
+> git cat-file -s 26033d4dbf9703b302efde4cfe6f2238cd5f9053
+> git ls-tree -l HEAD -- /home/tli2/data/binlog.000003
+> git ls-files --stage -- /home/tli2/data/binlog.000003
+> git cat-file -s 26033d4dbf9703b302efde4cfe6f2238cd5f9053
+> git show --textconv HEAD:data/ib_buffer_pool
+> git show --textconv :data/ib_buffer_pool
+> git ls-tree -l HEAD -- /home/tli2/data/ib_buffer_pool
+> git ls-files --stage -- /home/tli2/data/ib_buffer_pool
+> git cat-file -s 67f37d0546f5ab0e92b6e735272e532a1bcf13ea
+> git show --textconv HEAD:data/ibdata1
+> git show --textconv :data/ibdata1
+> git ls-tree -l HEAD -- /home/tli2/data/ibdata1
+> git ls-files --stage -- /home/tli2/data/ibdata1
+> git cat-file -s 5be2617754de6f57363e22e31dfac0687cc343e2
+> git status -z -u
+> git ls-tree -l HEAD -- /home/tli2/data/ibdata1
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git show --textconv HEAD:data/ibtmp1
+> git ls-tree -l HEAD -- /home/tli2/data/ibtmp1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/data/ibdata1
+> git cat-file -s 5be2617754de6f57363e22e31dfac0687cc343e2
+> git ls-tree -l HEAD -- /home/tli2/data/ibtmp1
+> git ls-tree -l HEAD -- /home/tli2/data/ibtmp1
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git status -z -u
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git status -z -u
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git branch
+> git reset -q HEAD -- /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.pid
+> git ls-files --stage -- /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.pid
+> git cat-file -s 16e80cad8ac10c6a48d416a8c6ca913b05014872
+> git show --textconv :.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.token
+> git ls-files --stage -- /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.token
+> git cat-file -s 23b909fda238173fea234ec0d5dd0049c14d4e3b
+> git show --textconv :.vscode-server/data/logs/20211224T203506/remoteagent.log
+> git ls-files --stage -- /home/tli2/.vscode-server/data/logs/20211224T203506/remoteagent.log
+> git cat-file -s d4b8b5f994ce3e56254b1b9791b622688328a2ac
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.vscode-server/data/logs/20211224T203506/remoteagent.log
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s d4b8b5f994ce3e56254b1b9791b622688328a2ac
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :.vscode-server/data/logs/20211224T203506/remoteagent.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.vscode-server/data/logs/20211224T203506/remoteagent.log
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s d4b8b5f994ce3e56254b1b9791b622688328a2ac
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :.vscode-server/data/logs/20211224T203506/remoteagent.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.vscode-server/data/logs/20211224T203506/remoteagent.log
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s d4b8b5f994ce3e56254b1b9791b622688328a2ac
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :.vscode-server/data/logs/20211224T203506/remoteagent.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.vscode-server/data/logs/20211224T203506/remoteagent.log
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s d4b8b5f994ce3e56254b1b9791b622688328a2ac
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :.vscode-server/data/logs/20211224T203506/remoteagent.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.vscode-server/data/logs/20211224T203506/remoteagent.log
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s d4b8b5f994ce3e56254b1b9791b622688328a2ac
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :.vscode-server/data/logs/20211224T203506/remoteagent.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.vscode-server/data/logs/20211224T203506/remoteagent.log
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s d4b8b5f994ce3e56254b1b9791b622688328a2ac
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :.vscode-server/data/logs/20211224T203506/remoteagent.log
+> git show --textconv :.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.token
+> git ls-files --stage -- /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.token
+> git cat-file -s 23b909fda238173fea234ec0d5dd0049c14d4e3b
+> git show --textconv :.vscode-server/data/logs/20211224T203506/remoteagent.log
+> git ls-files --stage -- /home/tli2/.vscode-server/data/logs/20211224T203506/remoteagent.log
+> git cat-file -s d4b8b5f994ce3e56254b1b9791b622688328a2ac
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.vscode-server/data/logs/20211224T203506/remoteagent.log
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git cat-file -s d4b8b5f994ce3e56254b1b9791b622688328a2ac
+> git show --textconv HEAD:.bash_history
+> git show --textconv :.bash_history
+> git show --textconv :.vscode-server/data/logs/20211224T203506/remoteagent.log
+> git ls-tree -l HEAD -- /home/tli2/.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git cat-file -s 6a8b69ef7e0324742c40fe565b1170998af9d705
+> git show --textconv :docker-compose.yml
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv :docker-compose.yml
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv :docker-compose.yml
+> git add -A -- /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv :docker-compose.yml
+> git add -A -- /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv :docker-compose.yml
+> git add -A -- /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv :docker-compose.yml
+> git branch
+> git reset -q HEAD -- /home/tli2/.bash_history
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git branch
+> git reset -q HEAD -- /home/tli2/data/ibtmp1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git branch
+> git reset -q HEAD -- /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.log /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.pid /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.token /home/tli2/.vscode-server/data/User/workspaceStorage/0b2e788a2bff724531d5bded461206e2/vscode.lock /home/tli2/.vscode-server/data/logs/20211224T203506/remoteagent.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/exthost.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/1-Docker.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git branch
+> git reset -q HEAD -- /home/tli2/data/binlog.000003 /home/tli2/data/ib_buffer_pool /home/tli2/data/ibdata1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+git.stage 8
+git.stage.scmResources 8
+> git add -A -- /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.log /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.pid /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.token /home/tli2/.vscode-server/data/User/workspaceStorage/0b2e788a2bff724531d5bded461206e2/vscode.lock /home/tli2/.vscode-server/data/logs/20211224T203506/remoteagent.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/exthost.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/1-Docker.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv :docker-compose.yml
+> git branch
+> git reset -q HEAD -- .
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git add -A -- /home/tli2/.bash_history /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.log /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.pid /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.token /home/tli2/.vscode-server/data/User/workspaceStorage/0b2e788a2bff724531d5bded461206e2/vscode.lock /home/tli2/data/binlog.000003 /home/tli2/data/ib_buffer_pool /home/tli2/data/ibdata1 /home/tli2/data/ibtmp1 /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/exthost.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/1-Docker.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log /home/tli2/.vscode-server/data/logs/20211224T203506/remoteagent.log
+error: open("data/binlog.000003"): Permission denied
+error: unable to index file data/binlog.000003
+fatal: updating files failed
+> git add -A -- /home/tli2/.bash_history /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.log /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.pid /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.token /home/tli2/.vscode-server/data/User/workspaceStorage/0b2e788a2bff724531d5bded461206e2/vscode.lock /home/tli2/data/binlog.000003 /home/tli2/data/ib_buffer_pool /home/tli2/data/ibdata1 /home/tli2/data/ibtmp1 /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/exthost.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/1-Docker.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log /home/tli2/.vscode-server/data/logs/20211224T203506/remoteagent.log
+error: open("data/binlog.000003"): Permission denied
+error: unable to index file data/binlog.000003
+fatal: updating files failed
+> git show --textconv :docker-compose.yml
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git add -A -- /home/tli2/.bash_history /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.log /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.pid /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.token /home/tli2/.vscode-server/data/User/workspaceStorage/0b2e788a2bff724531d5bded461206e2/vscode.lock /home/tli2/data/binlog.000003 /home/tli2/data/ib_buffer_pool /home/tli2/data/ibdata1 /home/tli2/data/ibtmp1 /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/exthost.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/1-Docker.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log /home/tli2/.vscode-server/data/logs/20211224T203506/remoteagent.log
+error: open("data/binlog.000003"): Permission denied
+error: unable to index file data/binlog.000003
+fatal: updating files failed
+git.stage 8
+git.stage.scmResources 8
+> git add -A -- /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.log /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.pid /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.token /home/tli2/.vscode-server/data/User/workspaceStorage/0b2e788a2bff724531d5bded461206e2/vscode.lock /home/tli2/.vscode-server/data/logs/20211224T203506/remoteagent.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/exthost.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/1-Docker.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv :docker-compose.yml
+> git add -A -- /home/tli2/.bash_history /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log /home/tli2/data/binlog.000003 /home/tli2/data/ib_buffer_pool /home/tli2/data/ibdata1 /home/tli2/data/ibtmp1
+error: open("data/binlog.000003"): Permission denied
+error: unable to index file data/binlog.000003
+fatal: updating files failed
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv :docker-compose.yml
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+git.stage 4
+git.stage.scmResources 4
+> git add -A -- /home/tli2/data/binlog.000003 /home/tli2/data/ib_buffer_pool /home/tli2/data/ibdata1 /home/tli2/data/ibtmp1
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+error: open("data/binlog.000003"): Permission denied
+error: unable to index file data/binlog.000003
+fatal: updating files failed
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv :docker-compose.yml
+git.stage 4
+git.stage.scmResources 4
+> git add -A -- /home/tli2/data/binlog.000003 /home/tli2/data/ib_buffer_pool /home/tli2/data/ibdata1 /home/tli2/data/ibtmp1
+error: open("data/binlog.000003"): Permission denied
+error: unable to index file data/binlog.000003
+fatal: updating files failed
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv :docker-compose.yml
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/tli2/.bash_history
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv :docker-compose.yml
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/tli2/data/ibtmp1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv :docker-compose.yml
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/tli2/data/ibdata1
+error: open("data/ibdata1"): Permission denied
+error: unable to index file data/ibdata1
+fatal: updating files failed
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git branch
+> git reset -q HEAD -- .
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv :docker-compose.yml
+git.stage 8
+git.stage.scmResources 8
+> git add -A -- /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.log /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.pid /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.token /home/tli2/.vscode-server/data/User/workspaceStorage/0b2e788a2bff724531d5bded461206e2/vscode.lock /home/tli2/.vscode-server/data/logs/20211224T203506/remoteagent.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/exthost.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/1-Docker.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log

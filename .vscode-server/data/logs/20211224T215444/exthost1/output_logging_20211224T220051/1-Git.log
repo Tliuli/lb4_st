@@ -1,0 +1,21 @@
+Validating found git in: git
+Using git 2.9.5 from git
+> git rev-parse --git-dir
+Open repository: /home/tli2
+> git status -z -u
+> git show --textconv HEAD:.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/vscode-remote-lock.tli2.899d46d82c4c95423fb7e10e68eba52050e30ba3
+> git ls-tree -l HEAD -- /home/tli2/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/vscode-remote-lock.tli2.899d46d82c4c95423fb7e10e68eba52050e30ba3
+> git ls-tree -l HEAD -- /home/tli2/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/vscode-remote-lock.tli2.899d46d82c4c95423fb7e10e68eba52050e30ba3
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git ls-tree -l HEAD -- /home/tli2/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/vscode-remote-lock.tli2.899d46d82c4c95423fb7e10e68eba52050e30ba3
+> git ls-tree -l HEAD -- /home/tli2/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/vscode-remote-lock.tli2.899d46d82c4c95423fb7e10e68eba52050e30ba3

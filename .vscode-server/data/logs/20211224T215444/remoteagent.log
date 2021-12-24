@@ -1,0 +1,27 @@
+[2021-12-24 21:54:44.995] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-12-24 21:54:44.995] [remoteagent] [info] Extension host agent started.
+[2021-12-24 21:54:45.307] [remoteagent] [error] [127.0.0.1][915c3786][ManagementConnection] Unknown reconnection token (never seen).
+[2021-12-24 22:00:50.177] [remoteagent] [info] [127.0.0.1][6d4a97bd][ManagementConnection] New connection established.
+[2021-12-24 22:00:50.191] [remoteagent] [info] [127.0.0.1][d32d8853][ExtensionHostConnection] New connection established.
+[2021-12-24 22:00:50.203] [remoteagent] [info] [127.0.0.1][d32d8853][ExtensionHostConnection] <1797> Launched Extension Host Process.
+[2021-12-24 22:00:50.926] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/tli2)
+[2021-12-24 22:00:50.926] [remoteagent] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-24 22:00:51.057] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/tli2)
+[2021-12-24 22:00:51.057] [remoteagent] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-24 22:00:51.232] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/tli2)
+[2021-12-24 22:00:51.233] [remoteagent] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-24 22:00:51.596] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/tli2)
+[2021-12-24 22:00:51.597] [remoteagent] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-24 22:00:51.781] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/tli2)
+[2021-12-24 22:00:51.781] [remoteagent] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-24 22:00:51.951] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/tli2)
+[2021-12-24 22:00:51.951] [remoteagent] [error] [File Watcher (parcel)] gave up attempting to restart watcher after error: Bad file descriptor

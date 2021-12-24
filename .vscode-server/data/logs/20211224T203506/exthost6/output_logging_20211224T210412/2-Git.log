@@ -1,0 +1,102 @@
+Validating found git in: git
+Using git 2.9.5 from git
+> git rev-parse --git-dir
+Open repository: /home/tli2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :docker-compose.yml
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git check-ignore -v -z --stdin
+> git ls-files --stage -- /home/tli2/docker-compose.yml
+> git cat-file -s c844156112100620dfaa2e7d02e57201a72c6a3a
+> git show --textconv :docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :.bash_logout
+> git ls-files --stage -- /home/tli2/.bash_logout
+> git cat-file -s af7c6fd8fd1d77b1081711bd0e497161446cc7d0
+> git show --textconv :.bash_history
+> git ls-files --stage -- /home/tli2/.bash_history
+> git cat-file -s ae6872bf622b857c8b013f7f689fa4d0deb69450
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/tli2/.bash_history
+> git show --textconv :.bash_logout
+> git ls-files --stage -- /home/tli2/.bash_logout
+> git cat-file -s af7c6fd8fd1d77b1081711bd0e497161446cc7d0
+> git check-ignore -v -z --stdin
+> git branch
+> git reset -q HEAD -- .
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git ls-files --stage -- /home/tli2/.bash_logout
+> git cat-file -s af7c6fd8fd1d77b1081711bd0e497161446cc7d0
+> git show --textconv :.bash_logout
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+git.stage 21
+git.stage.scmResources 21
+> git add -A -- /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.log /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.pid /home/tli2/.vscode-server/.899d46d82c4c95423fb7e10e68eba52050e30ba3.token /home/tli2/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/vscode-remote-lock.tli2.899d46d82c4c95423fb7e10e68eba52050e30ba3 /home/tli2/.vscode-server/data/User/workspaceStorage/0b2e788a2bff724531d5bded461206e2/vscode.lock /home/tli2/.vscode-server/data/logs/20211224T203506/remoteagent.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/exthost.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/1-Docker.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost1/output_logging_20211224T203515/2-Git.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost2/exthost.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost2/output_logging_20211224T205627/1-Git.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost3/exthost.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost3/output_logging_20211224T205652/1-Git.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost4/exthost.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost4/output_logging_20211224T205716/1-Git.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost4/output_logging_20211224T205716/2-Docker.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost5/exthost.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost5/output_logging_20211224T210331/1-Git.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost6/exthost.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost6/output_logging_20211224T210412/1-Docker.log /home/tli2/.vscode-server/data/logs/20211224T203506/exthost6/output_logging_20211224T210412/2-Git.log
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git ls-files --stage -- /home/tli2/.bash_logout
+> git cat-file -s af7c6fd8fd1d77b1081711bd0e497161446cc7d0
+> git show --textconv :.bash_logout
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/.bash_logout
+> git cat-file -s af7c6fd8fd1d77b1081711bd0e497161446cc7d0
+> git show --textconv :.bash_logout
+> git add -A -- /home/tli2/.bash_history /home/tli2/.vscode-server/data/logs/20211224T203506/exthost6/output_logging_20211224T210412/2-Git.log /home/tli2/git-2.9.5/git-gui/version /home/tli2/git-2.9.5/version
+error: open("git-2.9.5/git-gui/version"): Permission denied
+error: unable to index file git-2.9.5/git-gui/version
+fatal: updating files failed
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/.bash_logout
+> git cat-file -s af7c6fd8fd1d77b1081711bd0e497161446cc7d0
+> git show --textconv :.bash_logout
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/tli2/.bash_logout
+> git cat-file -s af7c6fd8fd1d77b1081711bd0e497161446cc7d0
+> git show --textconv :.bash_logout
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/tli2/.vscode-server/data/logs/20211224T203506/exthost6/output_logging_20211224T210412/2-Git.log
