@@ -112,3 +112,9 @@ cd .git
 git add .
 sudo git add .
 exit
+docker build -t "php:7.4-fpm-mysql" - < ./Dockerfile
+sudo git init
+git add .
+git commit -m 'init commit'
+sudo su
+exit
