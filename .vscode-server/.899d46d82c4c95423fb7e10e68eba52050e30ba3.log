@@ -26,3 +26,39 @@ Extension host agent listening on 36848
 [22:00:51] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
 [22:00:51] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/tli2)
 [22:00:51] [File Watcher (parcel)] gave up attempting to restart watcher after error: Bad file descriptor
+[23:15:04] [127.0.0.1][6d4a97bd][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[23:15:04] [127.0.0.1][d32d8853][ExtensionHostConnection] <1797> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[23:15:04] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[23:15:17] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[23:15:17] Cancelling previous shutdown timeout
+[23:15:17] [127.0.0.1][f2aa7335][ManagementConnection] New connection established.
+[23:15:17] [127.0.0.1][c80dec66][ExtensionHostConnection] New connection established.
+[23:15:17] [127.0.0.1][c80dec66][ExtensionHostConnection] <16820> Launched Extension Host Process.
+[23:15:35] [127.0.0.1][f2aa7335][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[23:15:35] [127.0.0.1][c80dec66][ExtensionHostConnection] <16820> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[23:15:35] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[23:15:35] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[23:15:38] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[23:15:38] Cancelling previous shutdown timeout
+[23:15:38] [127.0.0.1][6e212cd9][ManagementConnection] New connection established.
+[23:15:38] [127.0.0.1][1e0deee3][ExtensionHostConnection] New connection established.
+[23:15:38] [127.0.0.1][1e0deee3][ExtensionHostConnection] <16913> Launched Extension Host Process.
+[23:15:39] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/tli2)
+[23:15:39] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[23:15:39] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/tli2)
+[23:15:39] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[23:15:39] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/tli2)
+[23:15:39] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[23:15:39] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/tli2)
+[23:15:39] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[23:15:39] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/tli2)
+[23:15:39] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[23:15:40] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/tli2)
+[23:15:40] [File Watcher (parcel)] gave up attempting to restart watcher after error: Bad file descriptor

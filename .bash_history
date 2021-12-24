@@ -118,3 +118,8 @@ git add .
 git commit -m 'init commit'
 sudo su
 exit
+sudo systemctl nginx
+pwd
+sudo git init
+git add .
+sudo su

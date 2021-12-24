@@ -25,3 +25,32 @@
 [2021-12-24 22:00:51.781] [remoteagent] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
 [2021-12-24 22:00:51.951] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/tli2)
 [2021-12-24 22:00:51.951] [remoteagent] [error] [File Watcher (parcel)] gave up attempting to restart watcher after error: Bad file descriptor
+[2021-12-24 23:15:04.816] [remoteagent] [info] [127.0.0.1][6d4a97bd][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-12-24 23:15:04.853] [remoteagent] [info] [127.0.0.1][d32d8853][ExtensionHostConnection] <1797> Extension Host Process exited with code: 0, signal: null.
+[2021-12-24 23:15:04.854] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-12-24 23:15:17.260] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2021-12-24 23:15:17.260] [remoteagent] [info] Cancelling previous shutdown timeout
+[2021-12-24 23:15:17.343] [remoteagent] [info] [127.0.0.1][f2aa7335][ManagementConnection] New connection established.
+[2021-12-24 23:15:17.346] [remoteagent] [info] [127.0.0.1][c80dec66][ExtensionHostConnection] New connection established.
+[2021-12-24 23:15:17.362] [remoteagent] [info] [127.0.0.1][c80dec66][ExtensionHostConnection] <16820> Launched Extension Host Process.
+[2021-12-24 23:15:35.178] [remoteagent] [info] [127.0.0.1][f2aa7335][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-12-24 23:15:35.196] [remoteagent] [info] [127.0.0.1][c80dec66][ExtensionHostConnection] <16820> Extension Host Process exited with code: 0, signal: null.
+[2021-12-24 23:15:35.196] [remoteagent] [info] Cancelling previous shutdown timeout
+[2021-12-24 23:15:35.196] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-12-24 23:15:38.353] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2021-12-24 23:15:38.353] [remoteagent] [info] Cancelling previous shutdown timeout
+[2021-12-24 23:15:38.424] [remoteagent] [info] [127.0.0.1][6e212cd9][ManagementConnection] New connection established.
+[2021-12-24 23:15:38.427] [remoteagent] [info] [127.0.0.1][1e0deee3][ExtensionHostConnection] New connection established.
+[2021-12-24 23:15:38.432] [remoteagent] [info] [127.0.0.1][1e0deee3][ExtensionHostConnection] <16913> Launched Extension Host Process.
+[2021-12-24 23:15:39.020] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/tli2)
+[2021-12-24 23:15:39.020] [remoteagent] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-24 23:15:39.188] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/tli2)
+[2021-12-24 23:15:39.188] [remoteagent] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-24 23:15:39.308] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/tli2)
+[2021-12-24 23:15:39.308] [remoteagent] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-24 23:15:39.452] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/tli2)
+[2021-12-24 23:15:39.453] [remoteagent] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-24 23:15:39.674] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/tli2)
+[2021-12-24 23:15:39.675] [remoteagent] [error] [File Watcher (parcel)] restarting watcher after error: Bad file descriptor
+[2021-12-24 23:15:40.043] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/tli2)
+[2021-12-24 23:15:40.044] [remoteagent] [error] [File Watcher (parcel)] gave up attempting to restart watcher after error: Bad file descriptor

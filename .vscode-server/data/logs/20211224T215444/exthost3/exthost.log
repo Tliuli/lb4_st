@@ -1,0 +1,9 @@
+[2021-12-24 23:15:40.033] [exthost] [info] Extension host with pid 16913 started
+[2021-12-24 23:15:40.055] [exthost] [info] Lock '/home/tli2/.vscode-server/data/User/workspaceStorage/0b2e788a2bff724531d5bded461206e2/vscode.lock': Lock acquired.
+[2021-12-24 23:15:40.128] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-24 23:15:40.143] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-24 23:15:40.472] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2021-12-24 23:15:40.660] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-24 23:15:40.833] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-24 23:15:40.852] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-24 23:15:40.856] [exthost] [info] Eager extensions activated
